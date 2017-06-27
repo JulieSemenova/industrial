@@ -1,0 +1,34 @@
+.links-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links-list__item {
+  position: relative;
+  margin-left: 35px;
+}
+
+.links-list__item::before {
+  content: '•';
+  position: absolute;
+  top: 0;
+  left: -19px;
+  width: 10px;
+  height: 10px;
+  color: #93a3ab;
+}
+
+.links-list__item:first-child {
+  margin-left: 0;
+}
+
+.links-list__item:first-child::before {
+  display: none;
+}
+
+.links-list__link {
+  color: #93a3ab;
+  text-decoration: none;
+}

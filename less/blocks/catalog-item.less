@@ -1,0 +1,116 @@
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #ffffff;
+}
+
+.catalog-item {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.catalog-item:first-child {
+  margin-top: 0;
+}
+
+.catalog-item--large {
+  height: 690px;
+  padding: 105px 60px 115px;
+}
+
+.catalog-item--large .catalog-item__title {
+  font-size: 80px;
+}
+
+.catalog-item--large .catalog-item__desc {
+  font-size: 32px;
+}
+
+.catalog-item--medium {
+  width: 560px;
+  height: 520px;
+  padding: 60px 30px;
+}
+
+.catalog-item--medium .catalog-item__title {
+  font-size: 48px;
+}
+
+.catalog-item--medium .catalog-item__desc {
+  font-size: 24px;
+}
+
+.catalog-item--small {
+  width: 363px;
+  height: 440px;
+  padding: 60px 45px 35px;
+  align-items: center;
+}
+
+.catalog-item--small .catalog-item__title {
+  font-size: 36px;
+}
+
+.catalog-item--small .catalog-item__desc {
+  font-size: 16px;
+  text-align: center;
+}
+
+.catalog-item__item-1 {
+  width: 100%;
+  background-color: rgb(190, 201, 205);
+  background-image: url('../img/product-1.jpg');
+}
+
+.catalog-item__item-1 .catalog-item__btn {
+  width: 162px;
+  margin-top: auto;
+  font-size: 24px;
+  text-transform: none;
+}
+
+.catalog-item__item-2 {
+  align-items: flex-end;
+  background-color: #62b8c1;
+  background-image: url('../img/product-2.jpg');
+}
+
+.catalog-item__item-2 .catalog-item__desc {
+  text-align: right;
+}
+
+.catalog-item__item-3 {
+  background-color: #757dc9;
+  background-image: url('../img/product-3.jpg');
+}
+
+.catalog-item__item-4 {
+  background-color: #eb7c61;
+  background-image: url('../img/product-4.jpg');
+}
+
+.catalog-item__item-5 {
+  justify-content: flex-end;
+  background-color: #537683;
+  background-image: url('../img/product-5.jpg');
+}
+
+.catalog-item__item-5 .catalog-item__desc {
+  order: -1;
+}
+
+.catalog-item__item-6 {
+  background-color: #81cade;
+  background-image: url('../img/product-6.jpg');
+}
+
+.catalog-item__title {
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.catalog-item__desc {
+  margin: 0;
+}
