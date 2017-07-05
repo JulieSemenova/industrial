@@ -21,11 +21,11 @@
 }
 
 .catalog-item--large .catalog-item__title {
-  font-size: 80px;
+  font-size: @item-title-l;
 }
 
 .catalog-item--large .catalog-item__desc {
-  font-size: 32px;
+  font-size: @text-size-l;
 }
 
 .catalog-item--medium {
@@ -35,27 +35,30 @@
 }
 
 .catalog-item--medium .catalog-item__title {
-  font-size: 48px;
+  font-size: @item-title-m;
 }
 
 .catalog-item--medium .catalog-item__desc {
-  font-size: 24px;
+  font-size: @text-size-m;
 }
 
 .catalog-item--small {
   width: 363px;
   height: 440px;
-  padding: 60px 45px 35px;
+  padding: 60px 40px 35px;
   align-items: center;
 }
 
 .catalog-item--small .catalog-item__title {
-  font-size: 36px;
+  font-size: @item-title-s;
 }
 
 .catalog-item--small .catalog-item__desc {
-  font-size: 16px;
+  order: -1;
+  margin-bottom: 15px;
+  font-size: @text-size-s;
   text-align: center;
+  
 }
 
 .catalog-item__item-1 {
@@ -67,8 +70,6 @@
 .catalog-item__item-1 .catalog-item__btn {
   width: 162px;
   margin-top: auto;
-  font-size: 24px;
-  text-transform: none;
 }
 
 .catalog-item__item-2 {
@@ -109,6 +110,7 @@
 .catalog-item__title {
   margin: 0;
   text-transform: uppercase;
+  font-family: 'LeagueSpartan', 'Verdana', sans-serif;
 }
 
 .catalog-item__desc {

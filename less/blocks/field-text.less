@@ -1,3 +1,31 @@
+.field-text__item {
+  position: relative;
+}
+
+
 .field-text__icon {
+  position: absolute;
+  top: 0;
   fill: #93a3ab;
+}
+
+.field-text__input {
+  width: 100%;
+  padding: 0 10px 10px 35px;
+  
+  color: @color-grey;
+  
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid @color-grey;
+  outline: none;
+  
+  font: inherit;
+  font-size: 24px;
+}
+
+.field-text--email .field-text__input {
+  padding: 8px 0;
+  border: 4px solid @color-grey;
+  text-align: center;
 }
