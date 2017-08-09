@@ -1,7 +1,6 @@
 .btn {
   display: inline-block;
   width: 122px;
-  /* height: 90px; */
   vertical-align: top;
   text-align: center;
   padding: 12px;
@@ -10,12 +9,14 @@
   font-family: 'LeagueSpartan', 'Verdana', sans-serif;
   font-size: @font-size-main;
   font-weight: 700;
+  line-height: @font-size-main;
 
   border: 4px solid #f0caa1;
 
   text-transform: uppercase;
   text-decoration: none;
   box-sizing: border-box;
+  letter-spacing: 1px;
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.3);
@@ -23,6 +24,8 @@
 }
 
 .btn--shop {
+  padding: 17px;
+  
   font-size: @text-size-m;
   text-transform: none;
   font-family: 'HKGrotesk', 'Verdana', sans-serif;
@@ -33,5 +36,5 @@
 }
 
 .btn--details {
-  margin-top: 30px;
+  margin-top: 13px;
 }
